@@ -1,1 +1,86 @@
+@media (max-width:780px){
+#navbar {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    position: fixed;
+    width: 100%   
+  }  
+  .navContent{
+    margin: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: Sans-serif, Abadi;
+    font-size: 18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: orange;
+     
+  }
+  .mimic{
+    color: white;
+    font-size: 2rem;
+    font-family: Raleway,sans-serif;
+  }
+  .wdev{
+    color: maroon;
+    font-family: Raleway,sans-serif;
+  }
+  #projects{
+    background:#2f4f2f;
+    text-align: center;
+    padding: 4rem 1rem;
+    
+  }
+  h4{
+    max-width: 640px;
+    margin: 0 auto 1rem auto;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.75rem;
+  }
+  #accounts{
+    display: flex;
+    padding: 10rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background-color: maroon;
+  }
+  #accouts ,h1{
+  color:white;
+  }
+  #accouts ,h2{
+  color:white;
+  }
+a{
+  padding:10px;
+}
+a:link {
+  color: white;
+}
 
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: white;
+}
+  }
