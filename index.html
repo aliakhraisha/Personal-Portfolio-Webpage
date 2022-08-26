@@ -1,46 +1,73 @@
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-
-  <nav id='navbar'>
-      <a href='#welcome-section' class="navContent">About</a>
-      <a href='#projects' class="navContent">Work</a>
-      <a href='#accounts' class="navContent">Contact</a>
-    </nav>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
-
-  <section id="welcome-section">
-    <h1 class="mimic">Hey I am Alia Khraisha</h1>
-    <h2 class="wdev">a web developer</h2>
-  </section>
-
-  <section id="projects">
-    <h4 class="project-header">These are some of my projects</h4>
-  <label>
+@media (max-width:780px){
+  #navbar {
+    background-color: maroon;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%
     
-  <label>
-    <img src='https://cdn.loom.com/images/thumbnails/9aba0dacabf14ca7b551fd17c677c9d2.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL3RodW1ibmFpbHMvOWFiYTBkYWNhYmYxNGNhN2I1NTFmZDE3YzY3N2M5ZDIuanBnIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjU5Mjg3Nzc1fX19XX0_&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ&Signature=MwZjI%7EK66eXo2j6JgX2qZq8Wizp3a6ECtgnMH-VPni0n64KAFHkImGqIoG1Mtn9wcsiXxu5ArGST4AhDSYLxvQbCpOMWEoQ%7E61H%7E7Kqyft6vu4qcWSkyqxSsj8QjOp647d83VJJpZ9XoKP2jOi%7EVP4nkmFVguFmU5jKtrbRtrcnLPTr4oC3fDlnRZoUTv68EO5JHi87kgGtXCrT5a-pH7MwUg%7Ew4Xn6UXp4JIsEY9q7X80i4qMGrwMeGHa1862aBOcicWn0a6ZnWWJPSwLtCQx6wJhh0K%7EutZWcPmHKHbc7PhiNzl2Ald2fKASncdAllpRyVUEGI40g6a2We0J7-Wg'  width=200; height=200; >
-    <p class="project-tile"><a href='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page'>a Product Landing Page</a></p> 
-    </label>
-
-  <label>
-    <img src='https://cdn.loom.com/images/thumbnails/debb0bc18a0641308f358cbed469ebed.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vaW1hZ2VzL3RodW1ibmFpbHMvZGViYjBiYzE4YTA2NDEzMDhmMzU4Y2JlZDQ2OWViZWQuanBnIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjU5Mjg3ODYxfX19XX0_&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ&Signature=t7979jZy48DUzkUpu4U0wsn-5qhT4d3mkpaUkzGKInJFuRkugxNMe-Rc-RDwQJl3V8bCpugfqXOVX49O6MwKpfvg66DWPGNNJubc7cavIIwlePWW9wzY3UHDVZaLUIHAvEIzUGkMmEe7sJqdIRQaAdCnwRYT2dddEry0GQ5ZeuMggvHsRTSXCu-CBeYy5RIb9v7Z0ZoUyDXCMVGks6Vk6ZWonQPMPAZRj1uzVi6pV8zwnOYwmPG4a3LuEsl058Qvap52HTwZTXZbNWuJ24Uo1lB7i3k0chPKbsk5CZ7mCd2QdNIkqGQj%7EV7a6FoJ6DCOwWGgZNAsWo--uTb%7Et4%7ERkg__'  width=200; height=200;>
-    <div class="project-tile"><a href='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form'>a Survey Form</a></div> 
-    </label>
-
-
-  </section>
-  <section id='accounts'>
-    <h1>Let's work together...</h1>
-    <h2>How do you take your coffee?</h2>
-    <p class="action-link">
-<a href='https://www.facebook.com/alia.khraisha81'>Facebook</a>
-<a id='profile-link' target="_blank" href='https://github.com/aliakhraisha'>Github</a>
-<a href='https://twitter.com/alia_khraisha'>Twitter</a>
-</p>
-  </section>
-
-</html>
+  }  
+  .navContent{
+    margin: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: Sans-serif, Abadi;
+    font-size: 18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(0,0,0,0.9);
+    
+  
+  
+  }
+  .mimic{
+    color: white;
+    font-size: 2rem;
+    font-family: Raleway,sans-serif;
+  }
+  .wdev{
+    color: maroon;
+    font-family: Raleway,sans-serif;
+  }
+  #projects{
+    background:#2f4f4f;
+    text-align: center;
+    padding: 10rem 2rem;
+    
+  }
+  h4{
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.75rem;
+  }
+  #accounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    background-color: rgb(0,0,0,0.9);
+  }
+  #accouts ,h1{
+  color:white
+  }
+  #accouts ,h2{
+  color:white
+  }
+  .action-link{
+    color:white
+  }
+  }
