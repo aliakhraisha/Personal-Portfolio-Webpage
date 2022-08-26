@@ -1,73 +1,45 @@
-@media (max-width:780px){
-  #navbar {
-    background-color: maroon;
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    width: 100%
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+
+  <nav id='navbar'>
+      <a href='#welcome-section' class="navContent">About</a>
+      <a href='#projects' class="navContent">Work</a>
+      <a href='#accounts' class="navContent">Contact</a>
+    </nav>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+  <section id="welcome-section">
+    <h1 class="mimic">Hey I am Mimic</h1>
+    <h2 class="wdev">a web developer</h2>
+  </section>
+
+  <section id="projects">
+    <h4 class="project-header">These are some of my projects</h4>
+  <label>
     
-  }  
-  .navContent{
-    margin: 13px;
-    color: white;
-    text-decoration: none;
-    font-family: Sans-serif, Abadi;
-    font-size: 18;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  #welcome-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    background-color: rgb(0,0,0,0.9);
-    
-  
-  
-  }
-  .mimic{
-    color: white;
-    font-size: 2rem;
-    font-family: Raleway,sans-serif;
-  }
-  .wdev{
-    color: maroon;
-    font-family: Raleway,sans-serif;
-  }
-  #projects{
-    background:#2f4f4f;
-    text-align: center;
-    padding: 10rem 2rem;
-    
-  }
-  h4{
-    max-width: 640px;
-    margin: 0 auto 6rem auto;
-    text-decoration: underline;
-    color: white;
-    font-size: 1.75rem;
-  }
-  #accounts{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 40vh;
-    background-color: rgb(0,0,0,0.9);
-  }
-  #accouts ,h1{
-  color:white
-  }
-  #accouts ,h2{
-  color:white
-  }
-  .action-link{
-    color:white
-  }
-  }
+  <label>
+    <a href='https://codepen.io/freeCodeCamp/full/zNqgVx'> <img src='https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png'  width=150; height=150; ></a>
+    <p class="project-tile"><a href='https://codepen.io/freeCodeCamp/full/zNqgVx'>a Product Landing Page</a></p> 
+    </label>
+
+  <label>
+    <a href='https://codepen.io/freeCodeCamp/full/zNqgVx'> <img src='https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png'  width=150; height=150; ></a>
+    <p class="project-tile"><a href='https://codepen.io/freeCodeCamp/full/zNqgVx'>a Survey Form</a></p> 
+    </label>
+
+
+  </section>
+  <section id='accounts'>
+    <h1>Let's work together...</h1>
+    <h2>How do you take your coffee?</h2>
+    <div class="action-link">
+<a href:'https://www.facebook.com/freecodecamp'>Facebook</a>
+<a id='profile-link' target="_blank" href:'https://github.com/freecodecamp'>Github</a>
+<a href:'https://twitter.com/freecodecamp'>Twitter</a>
+</div>
+  </section>
+
+</html>
