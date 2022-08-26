@@ -1,11 +1,12 @@
 @media (max-width:780px){
-#navbar {
-    background-color: black;
-    height: 50px;
+  #navbar {
+    background-color: maroon;
+    height: 40px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     position: fixed;
-    width: 100%   
+    width: 100%
+    
   }  
   .navContent{
     margin: 13px;
@@ -25,8 +26,10 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-color: orange;
-     
+    background-color: rgb(0,0,0,0.9);
+    
+  
+  
   }
   .mimic{
     color: white;
@@ -38,49 +41,33 @@
     font-family: Raleway,sans-serif;
   }
   #projects{
-    background:#2f4f2f;
+    background:#2f4f4f;
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 10rem 2rem;
     
   }
   h4{
     max-width: 640px;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 6rem auto;
     text-decoration: underline;
     color: white;
     font-size: 1.75rem;
   }
   #accounts{
     display: flex;
-    padding: 10rem 1rem;
     flex-direction: column;
     align-items: center;
     text-align: center;
     height: 40vh;
-    background-color: maroon;
+    background-color: rgb(0,0,0,0.9);
   }
   #accouts ,h1{
-  color:white;
+  color:white
   }
   #accouts ,h2{
-  color:white;
+  color:white
   }
-a{
-  padding:10px;
-}
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: yellow;
-}
-
-a:active {
-  color: white;
-}
+  .action-link{
+    color:white
+  }
   }
