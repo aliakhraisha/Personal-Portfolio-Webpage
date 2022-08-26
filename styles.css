@@ -5,14 +5,13 @@
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    width: 100%
-    
+    width: 100%;
   }  
   .navContent{
     margin: 13px;
     color: white;
     text-decoration: none;
-    font-family: Sans-serif, Abadi;
+    font-family: Sans-serif,Abadi;
     font-size: 18;
     display: flex;
     justify-content: center;
@@ -69,5 +68,4 @@
   }
   .action-link{
     color:white
-  }
   }
